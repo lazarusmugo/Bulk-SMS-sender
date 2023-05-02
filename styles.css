@@ -1,0 +1,142 @@
+body {
+  background-color: #6ba4ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+textarea,
+input[type="submit"],
+input[type="text"] {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: sans-serif;
+}
+
+input[type="radio"],
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 0.5rem;
+}
+
+input[type="radio"]:hover,
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="radio"]:checked {
+  background-color: #0056b3;
+}
+
+.phone-inputs {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-inputs.active {
+  display: flex;
+}
+
+.phone-inputs input[type="text"] {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.phone-inputs button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.phone-inputs button:hover {
+  background-color: #0056b3;
+}
+
+.phone-number-input {
+  display: flex;
+  align-items: center;
+}
+
+.phone-number-input input[type="text"] {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.phone-number-input button {
+  background-color: rgba(255, 0, 0, 0.767);
+
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.phone-number-input button:hover {
+  background-color: #ff0000f1;
+}
+
+.phone-number-input button:focus {
+  outline: none;
+}
+
+.phone-number-input button:active {
+  transform: translateY(1px);
+}
+.message-container {
+  background-color: rgb(86, 194, 104);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
